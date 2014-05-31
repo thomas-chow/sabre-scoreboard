@@ -1,26 +1,37 @@
 {
-  "name": "sabre-scoreboard",
-  "version": "0.0.1",
-  "description": "",
+  "name": "node-js-sample",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thomas-chow/sabre-scoreboard.git"
-  },
-  "keywords": [
-    "sabre"
-  ],
-  "author": "thomas-chow",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thomas-chow/sabre-scoreboard/issues"
-  },
-  "homepage": "https://github.com/thomas-chow/sabre-scoreboard",
   "dependencies": {
     "express": "^4.4.0",
     "logfmt": "^1.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heroku/node-js-sample/issues"
+  },
+  "homepage": "https://github.com/heroku/node-js-sample",
+  "devDependencies": {
+    "mocha": "^1.20.0"
   }
 }

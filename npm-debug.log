@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'fs', '--save' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /usr/bin/node
+5 warn package.json sabre-scoreboard@0.0.1 No description
+6 warn package.json sabre-scoreboard@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'fs', null ]
+9 verbose cache add name=undefined spec="fs" args=["fs",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'fs',
+10 verbose parsed url   path: 'fs',
+10 verbose parsed url   href: 'fs' }
+11 silly lockFile 3f4bb586-fs fs
+12 verbose lock fs /home/ubuntu/.npm/3f4bb586-fs.lock
+13 silly lockFile 3f4bb586-fs fs
+14 silly lockFile 3f4bb586-fs fs
+15 verbose addNamed [ 'fs', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile a107b96b-fs fs@
+18 verbose lock fs@ /home/ubuntu/.npm/a107b96b-fs.lock
+19 silly addNameRange { name: 'fs', range: '*', hasData: false }
+20 verbose url raw fs
+21 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+22 verbose url resolved https://registry.npmjs.org/fs
+23 info trying registry request attempt 1 at 15:06:47
+24 http GET https://registry.npmjs.org/fs
+25 http 404 https://registry.npmjs.org/fs
+26 verbose headers { date: 'Sat, 31 May 2014 15:06:44 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-v36-ASH, cache-syd1621-SYD',
+26 verbose headers   'x-cache': 'MISS, MISS',
+26 verbose headers   'x-cache-hits': '0, 0',
+26 verbose headers   'x-timer': 'S1401548804.080053,VS0,VE249',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Sat, 31 May 2014 15:06:44 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-syd1621-SYD',
+27 silly registry.get     'x-cache': 'MISS, MISS',
+27 silly registry.get     'x-cache-hits': '0, 0',
+27 silly registry.get     'x-timer': 'S1401548804.080053,VS0,VE249',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile a107b96b-fs fs@
+29 silly lockFile a107b96b-fs fs@
+30 error 404 404 Not Found: fs
+30 error 404
+30 error 404 'fs' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404 It was specified as a dependency of 'sabre-scoreboard'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.13.0-24-generic
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "fs" "--save"
+33 error cwd /home/ubuntu/sabre-scoreboard
+34 error node -v v0.10.28
+35 error npm -v 1.4.9
+36 error code E404
+37 verbose exit [ 1, true ]

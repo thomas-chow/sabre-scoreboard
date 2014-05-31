@@ -1,0 +1,26 @@
+{
+  "name": "sabre-scoreboard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomas-chow/sabre-scoreboard.git"
+  },
+  "keywords": [
+    "sabre"
+  ],
+  "author": "thomas-chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas-chow/sabre-scoreboard/issues"
+  },
+  "homepage": "https://github.com/thomas-chow/sabre-scoreboard",
+  "dependencies": {
+    "express": "^4.4.0",
+    "logfmt": "^1.1.2"
+  }
+}

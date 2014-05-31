@@ -1,15 +1,15 @@
-// web.js
-var express = require("express");
-var logfmt = require("logfmt");
+var express = require('express');
+var fs = require('fs');
+var htmlfile = "index.html";
+
 var app = express();
 
-app.use(logfmt.requestLogger());
-
-app.get('/', function(req, res) {
-  res.send('Hello World!');
+app.get('/', function(request, response){
+    var html = fs.readFileSync(htmlfile).toString();
+    response.send(html);
 });
 
-var port = Number(process.env.PORT || 8080);
-app.listen(port, function() {
-  console.log("Listening on " + port);
+var port = process.env.PORT || 8080;
+app.listen(port, function(){
+    console.log("Listening on " +port);
 });

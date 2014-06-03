@@ -7,7 +7,7 @@ This is a side project of mine to create a web app that allows for the tracking 
 * Forms
 * Dashboards
 * One more line
-* 
+
 ## Next Steps
 * Prepare each of the webpages inline with the mockup
 * Walk through the web app from the [start up template](https://github.com/startup-class/bitstarter-leaderboard)
